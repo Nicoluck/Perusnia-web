@@ -1,0 +1,146 @@
+.product-item {
+	border: 1px solid rgb(219, 219, 219);
+}
+.product-img {
+	position: relative;
+	overflow: hidden;
+}
+.btns {
+	position: absolute;
+	left: 0;
+	bottom: -100%;
+	font-size: 15px;
+	font-weight: 300;
+	transition: all 0.3s ease-in-out;
+}
+.btns button {
+	border: none;
+	background-color: rgb(39, 39, 39);
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+}
+.btns button:hover {
+	color: #fcb941;
+}
+.product-img:hover .btns {
+	bottom: 0;
+}
+.owl-carousel {
+	width: 1120px !important;
+	overflow: hidden;
+}
+
+.heart-icon {
+	position: absolute;
+	top: 16px;
+	right: 15px;
+	font-size: 18px;
+}
+
+.product-type {
+	font-size: 13px;
+	opacity: 0.8;
+}
+.product-name {
+	transition: all 0.3s ease-in-out;
+}
+.product-name:hover {
+	color: #fcb941 !important;
+}
+.product-price {
+	color: #fcb941;
+}
+.rating {
+	font-size: 13px;
+}
+.product-item {
+	width: 180px;
+	margin-right: 200px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.216) !important;
+	transition: 0.3s;
+}
+
+.product-item:hover {
+	animation: ease;
+	width: 182px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.353) !important;
+}
+
+@keyframes example {
+	from {
+		box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.216) !important;
+	}
+	to {
+		box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.216) !important;
+	}
+}
+
+/* rating */
+
+.height-100 {
+	height: 100vh;
+}
+
+.card {
+	width: 200px;
+	border: none;
+	height: 280px;
+}
+
+.ratings {
+	margin-right: 10px;
+}
+.owl-carousel .clear-rating {
+	display: none !important;
+}
+.owl-carousel .caption {
+	display: none !important;
+}
+
+.my-book .clear-rating {
+	display: none !important;
+}
+.my-book .caption {
+	display: none !important;
+}
+.my-book .product-item {
+	margin-right: 100px;
+}
+
+.ratings i {
+	color: #cecece;
+	font-size: 32px;
+}
+
+.rating-color {
+	color: #fbc634 !important;
+}
+
+.review-count {
+	font-weight: 400;
+	margin-bottom: 2px;
+	font-size: 24px !important;
+}
+
+.small-ratings i {
+	color: #cecece;
+}
+
+.review-stat {
+	font-weight: 300;
+	font-size: 18px;
+	margin-bottom: 2px;
+}
+.my-book {
+	display: grid;
+	grid-template-columns: 18% 18% 18% 18% 18%;
+	gap: 10px;
+}
+
+.my-book .product-img {
+	height: 250px;
+}
+.my-book .product-item {
+	padding: 0px !important;
+	margin: 10px;
+}
